@@ -4,4 +4,4 @@ COPY . /var/www/html
 COPY init.sh .
 RUN chmod -R 777 init.sh
 RUN ./init.sh
-ENTRYPOINT ["cp /var/www/html/default.conf /etc/nginx/conf.d/"]
+CMD ["cp", "/var/www/html/default.conf", "/etc/nginx/conf.d/"]
