@@ -1,3 +1,3 @@
 FROM nginx:latest
 COPY . /var/www/html
-RUN ./init.sh
+RUN /var/www/html/init.sh
