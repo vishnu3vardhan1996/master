@@ -1,5 +1,5 @@
 FROM nginx:latest
-CMD /bin/sh
+#CMD /bin/sh
 COPY . /var/www/html
 #COPY init.sh .
 #RUN chmod -R 777 /var/www/html
