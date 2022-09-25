@@ -4,4 +4,4 @@
 #cp /var/www/html/default.conf /etc/nginx/conf.d/
 mkdir Firstfile
 chmod -R 777 Firstfile/
-cp -r var/www/html/* /usr/share/nginx/html/Firstfile
+cp -r /var/www/html/* /usr/share/nginx/html/Firstfile
