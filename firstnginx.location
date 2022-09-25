@@ -1,0 +1,7 @@
+firstnginx {
+    server_name www.localhost.com;
+    root /var/www/html/example.com;
+    location /fistfile/ {
+        alias /var/www/html/;
+    }
+}
